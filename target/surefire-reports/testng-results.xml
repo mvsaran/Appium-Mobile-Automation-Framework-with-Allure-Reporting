@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-09T16:21:21 IST" name="Surefire suite" finished-at="2025-07-09T16:22:02 IST" duration-ms="40369">
+    <groups>
+    </groups>
+    <test started-at="2025-07-09T16:21:21 IST" name="Surefire test" finished-at="2025-07-09T16:22:02 IST" duration-ms="40369">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:tests.LoginTest@2af004b]" started-at="2025-07-09T16:21:21 IST" name="setup" finished-at="2025-07-09T16:21:31 IST" duration-ms="9486" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="swaglabsLoginTest()[pri:0, instance:tests.LoginTest@2af004b]" started-at="2025-07-09T16:21:31 IST" name="swaglabsLoginTest" description="Verify successful login with valid credentials" finished-at="2025-07-09T16:21:38 IST" duration-ms="7280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- swaglabsLoginTest -->
+        <test-method is-config="true" signature="tearDownAppium()[pri:0, instance:tests.LoginTest@2af004b]" started-at="2025-07-09T16:22:00 IST" name="tearDownAppium" finished-at="2025-07-09T16:22:02 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownAppium -->
+      </class> <!-- tests.LoginTest -->
+      <class name="tests.CheckOutTest">
+        <test-method signature="checkOutTest()[pri:0, instance:tests.CheckOutTest@65c7a252]" started-at="2025-07-09T16:21:44 IST" name="checkOutTest" description="Verify checkout with valid information" finished-at="2025-07-09T16:21:56 IST" depends-on-methods="productPageTest" duration-ms="12789" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkOutTest -->
+      </class> <!-- tests.CheckOutTest -->
+      <class name="tests.ProductTest">
+        <test-method signature="productPageTest()[pri:0, instance:tests.ProductTest@5d0bf09b]" started-at="2025-07-09T16:21:38 IST" name="productPageTest" description="Verify adding a product to cart" finished-at="2025-07-09T16:21:44 IST" depends-on-methods="swaglabsLoginTest" duration-ms="5399" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productPageTest -->
+      </class> <!-- tests.ProductTest -->
+      <class name="tests.LogoutTest">
+        <test-method signature="logoutTest()[pri:0, instance:tests.LogoutTest@248e319b]" started-at="2025-07-09T16:21:56 IST" name="logoutTest" description="Verify logout flow after checkout" finished-at="2025-07-09T16:22:00 IST" depends-on-methods="checkOutTest" duration-ms="3932" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+      </class> <!-- tests.LogoutTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

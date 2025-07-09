@@ -1,0 +1,9 @@
+Pages\SideMenuPage.class
+Pages\ProductPage.class
+tests\LogoutTest.class
+tests\CheckOutTest.class
+Pages\LoginPage.class
+Pages\CheckOutPage.class
+tests\LoginTest.class
+tests\ProductTest.class
+Base\BaseClass.class

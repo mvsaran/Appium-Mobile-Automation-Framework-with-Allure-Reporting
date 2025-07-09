@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="41.641" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\mvsar\eclipse-workspace\AppiumProject\target\test-classes;C:\Users\mvsar\eclipse-workspace\AppiumProject\target\classes;C:\Users\mvsar\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mvsar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mvsar\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mvsar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mvsar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mvsar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mvsar\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mvsar\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\mvsar\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\mvsar\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\mvsar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mvsar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mvsar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mvsar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="suiteXmlFile" value="allureReports.xml"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin"/>
+    <property name="sun.java.command" value="C:\Users\mvsar\AppData\Local\Temp\surefire16524193281514589380\surefirebooter-20250709162119921_3.jar C:\Users\mvsar\AppData\Local\Temp\surefire16524193281514589380 2025-07-09T16-21-19_631-jvmRun1 surefire-20250709162119921_1tmp surefire_0-20250709162119921_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\mvsar\eclipse-workspace\AppiumProject\target\test-classes;C:\Users\mvsar\eclipse-workspace\AppiumProject\target\classes;C:\Users\mvsar\.m2\repository\io\appium\java-client\9.5.0\java-client-9.5.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-api\4.34.0\selenium-api-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\4.34.0\selenium-remote-driver-4.34.0.jar;C:\Users\mvsar\.m2\repository\com\google\auto\service\auto-service-annotations\1.1.1\auto-service-annotations-1.1.1.jar;C:\Users\mvsar\.m2\repository\com\google\guava\guava\33.4.8-jre\guava-33.4.8-jre.jar;C:\Users\mvsar\.m2\repository\com\google\guava\failureaccess\1.0.3\failureaccess-1.0.3.jar;C:\Users\mvsar\.m2\repository\com\google\guava\listenablefuture\9999.0-empty-to-avoid-conflict-with-guava\listenablefuture-9999.0-empty-to-avoid-conflict-with-guava.jar;C:\Users\mvsar\.m2\repository\com\google\j2objc\j2objc-annotations\3.0.0\j2objc-annotations-3.0.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-api\1.51.0\opentelemetry-api-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-context\1.51.0\opentelemetry-context-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-exporter-logging\1.51.0\opentelemetry-exporter-logging-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-common\1.51.0\opentelemetry-sdk-common-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure-spi\1.51.0\opentelemetry-sdk-extension-autoconfigure-spi-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-extension-autoconfigure\1.51.0\opentelemetry-sdk-extension-autoconfigure-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-trace\1.51.0\opentelemetry-sdk-trace-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk\1.51.0\opentelemetry-sdk-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-metrics\1.51.0\opentelemetry-sdk-metrics-1.51.0.jar;C:\Users\mvsar\.m2\repository\io\opentelemetry\opentelemetry-sdk-logs\1.51.0\opentelemetry-sdk-logs-1.51.0.jar;C:\Users\mvsar\.m2\repository\net\bytebuddy\byte-buddy\1.17.6\byte-buddy-1.17.6.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-http\4.34.0\selenium-http-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-json\4.34.0\selenium-json-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-manager\4.34.0\selenium-manager-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-os\4.34.0\selenium-os-4.34.0.jar;C:\Users\mvsar\.m2\repository\org\apache\commons\commons-exec\1.5.0\commons-exec-1.5.0.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-support\4.34.0\selenium-support-4.34.0.jar;C:\Users\mvsar\.m2\repository\com\google\code\gson\gson\2.13.1\gson-2.13.1.jar;C:\Users\mvsar\.m2\repository\com\google\errorprone\error_prone_annotations\2.38.0\error_prone_annotations-2.38.0.jar;C:\Users\mvsar\.m2\repository\org\slf4j\slf4j-api\2.0.17\slf4j-api-2.0.17.jar;C:\Users\mvsar\.m2\repository\org\jspecify\jspecify\1.0.0\jspecify-1.0.0.jar;C:\Users\mvsar\.m2\repository\org\testng\testng\7.11.0\testng-7.11.0.jar;C:\Users\mvsar\.m2\repository\org\jcommander\jcommander\1.83\jcommander-1.83.jar;C:\Users\mvsar\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-java\4.12.1\selenium-java-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\4.12.1\selenium-chrome-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-chromium-driver\4.12.1\selenium-chromium-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v114\4.12.1\selenium-devtools-v114-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v115\4.12.1\selenium-devtools-v115-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v116\4.12.1\selenium-devtools-v116-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-devtools-v85\4.12.1\selenium-devtools-v85-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\4.12.1\selenium-edge-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\4.12.1\selenium-firefox-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\4.12.1\selenium-ie-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\4.12.1\selenium-safari-driver-4.12.1.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-testng\2.24.0\allure-testng-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-java-commons\2.24.0\allure-java-commons-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-model\2.24.0\allure-model-2.24.0.jar;C:\Users\mvsar\.m2\repository\io\qameta\allure\allure-test-filter\2.24.0\allure-test-filter-2.24.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\mvsar"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\mvsar\eclipse-workspace\AppiumProject"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\mvsar\AppData\Local\Temp\surefire16524193281514589380\surefirebooter-20250709162119921_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.7+6-LTS"/>
+    <property name="user.name" value="mvsar"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Temurin-21.0.7+6"/>
+    <property name="localRepository" value="C:\Users\mvsar\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\mvsar\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.7"/>
+    <property name="user.dir" value="C:\Users\mvsar\eclipse-workspace\AppiumProject"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\Eclipse Adoptium\jdk-21.0.7.6-hotspot\bin;C:\Program Files\Java\jdk-23;C:\Program Files\Git\cmd;C:\Windows\System32;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Users\mvsar\AppData\Local\Android\Sdk\platform-tools;C:\Users\mvsar\AppData\Local\Android\Sdk\tools;C:\Users\mvsar\AppData\Local\Android\Sdk\build-tools;C:\Maven\apache-maven-3.9.9\bin;C:\Users\mvsar\AppData\Local\Programs\Python\Python313\Scripts\;C:\Users\mvsar\AppData\Local\Programs\Python\Python313\;C:\Users\mvsar\AppData\Local\Programs\Python\Launcher\;C:\Users\mvsar\AppData\Local\Programs\Python\Python312\Scripts\;C:\Users\mvsar\AppData\Local\Programs\Python\Python312\;C:\Users\mvsar\Downloads\jdk-21_windows-x64_bin.zip\jdk-21.0.2\bin;C:\Users\mvsar\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\mvsar\AppData\Local\Microsoft\WindowsApps;C:\Users\mvsar\AppData\Local\Programs\Microsoft VS Code Insiders\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.3.5\bin;;C:\Users\mvsar\AppData\Roaming\npm;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.7+6-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="swaglabsLoginTest" classname="tests.LoginTest" time="7.395">
+    <system-out><![CDATA[🔁 Starting Appium Server
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Welcome to Appium v2.19.0 (REV 2486e4adbcba0a5c94e789bdd1144e1ef5e16603)
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Non-default server args:
+&amp#27;[38;5;112m[Appium]&amp#27;[0m { address: &amp#27;[32m'127.0.0.1'&amp#27;[39m }
+&amp#27;[38;5;112m[Appium]&amp#27;[0m The autodetected Appium home path: C:\Users\mvsar\.appium
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Attempting to load driver uiautomator2...
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Requiring driver at C:\Users\mvsar\.appium\node_modules\appium-uiautomator2-driver\build\index.js
+&amp#27;[38;5;112m[Appium]&amp#27;[0m AndroidUiautomator2Driver has been successfully loaded in 2.244s
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Appium REST http interface listener started on http://127.0.0.1:4723
+&amp#27;[38;5;112m[Appium]&amp#27;[0m Available drivers:
+&amp#27;[38;5;112m[Appium]&amp#27;[0m   - uiautomator2@4.2.4 (automationName 'UiAutomator2')
+&amp#27;[38;5;112m[Appium]&amp#27;[0m No plugins have been installed. Use the "appium plugin" command to install the one(s) you want to use.
+✅ Appium session started
+✅ Login test passed
+]]></system-out>
+    <system-err><![CDATA[SLF4J(W): No SLF4J providers were found.
+SLF4J(W): Defaulting to no-operation (NOP) logger implementation
+SLF4J(W): See https://www.slf4j.org/codes.html#noProviders for further details.
+]]></system-err>
+  </testcase>
+  <testcase name="productPageTest" classname="tests.ProductTest" time="5.402">
+    <system-out><![CDATA[✅ PRODUCTS screen is displayed
+✅ Clicked 'ADD TO CART'
+🛒 Opened Cart
+✅ 'Sauce Labs Backpack' is in the cart
+✅ Clicked 'CHECKOUT' button
+]]></system-out>
+  </testcase>
+  <testcase name="checkOutTest" classname="tests.CheckOutTest" time="12.792">
+    <system-out><![CDATA[✅ Entered First Name
+✅ Entered Last Name
+✅ Entered Postal Code
+✅ Clicked 'CONTINUE' button
+✅ Clicked on FINISH button after swiping.
+✅ Clicked 'FINISH' button
+✅ Checkout completed successfully
+]]></system-out>
+  </testcase>
+  <testcase name="logoutTest" classname="tests.LogoutTest" time="3.934">
+    <system-out><![CDATA[✅ Menu opened
+✅ Logout option is visible
+✅ Successfully logged out
+]]></system-out>
+  </testcase>
+</testsuite>

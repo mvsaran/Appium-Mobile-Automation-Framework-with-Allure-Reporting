@@ -1,0 +1,15 @@
+
+<suite name="SwagLabsTestSuite">
+  <listeners>
+    <listener class-name="io.qameta.allure.testng.AllureTestNg" />
+  </listeners>
+
+  <test name="SwagLabs Tests">
+    <classes>
+      <class name="tests.LoginTest" />
+      <class name="tests.ProductTest" />
+      <class name="tests.CheckOutTest" />
+      <class name="tests.LogoutTest" />
+    </classes>
+  </test>
+</suite>

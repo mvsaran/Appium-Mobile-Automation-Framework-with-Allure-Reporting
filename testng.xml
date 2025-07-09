@@ -1,0 +1,11 @@
+
+<suite name="SwagLabsTestSuite" verbose="1">
+    <test name="E2E Test Flow">
+        <classes>
+            <class name="tests.LoginTest"/>
+            <class name="tests.ProductTest"/>
+            <class name="tests.CheckOutTest"/>
+            <class name="tests.LogoutTest" />
+        </classes>
+    </test>
+</suite>
